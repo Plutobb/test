@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+	int x, y, z;
+	for (x = 1000; x < 2001; x++) {
+		if (x % 4 == 0 && x % 100 != 0)
+		printf("%d\t", x);
+	}
+	return 0;
+}
